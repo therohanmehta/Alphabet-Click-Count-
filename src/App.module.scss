@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .buttons{
+    display: flex;
+    gap: 1rem;
+  }
+}
