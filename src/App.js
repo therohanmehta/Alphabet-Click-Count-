@@ -1,12 +1,12 @@
 import React from "react";
 import Button from "./Components/Button";
-import Style from "./App.module.scss";
+import Style from "./App.module.css";
 import { increaseBtnCount } from "./redux/todoReducer";
 import { useDispatch, useSelector } from "react-redux";
 const App = () => {
   const dispatch = useDispatch();
   const selector = useSelector((state) => state.increase);
-  const array = ["A", "B", "C", "D", "E", "F", "G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Zf"];
+  const array = ["A", "B", "C", "D", "E", "F", "G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
   return (
     <div className={Style.root}>
       <div className={Style.buttons}>
